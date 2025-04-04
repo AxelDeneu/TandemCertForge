@@ -1,0 +1,35 @@
+{
+  "name": "tandem-cert-forge",
+  "version": "1.0.0",
+  "description": "A zero-dependency Node.js CLI tool for generating SSL certificates using step-ca and uploading them to Nginx Proxy Manager",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": {
+    "tandem-cert-forge": "./src/index.js",
+    "tcf": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build step required\"",
+    "prepublishOnly": "echo \"No prepublish step required\""
+  },
+  "keywords": [
+    "ssl",
+    "certificates",
+    "step-ca",
+    "nginx-proxy-manager",
+    "cli"
+  ],
+  "author": "Axel Deneu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxelDeneu/tandem-cert-forge.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
