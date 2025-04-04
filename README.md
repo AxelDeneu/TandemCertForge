@@ -109,7 +109,7 @@ tcf blog  # Creates certificate for blog.mydomain.com
 | Parameter | Description | Required | Default |
 |-----------|-------------|----------|---------| 
 | stepCa.url | URL of your step-ca instance | Yes | https://ca.local |
-| stepCa.fingerprint | Fingerprint of your step-ca root certificate | Yes | - |
+| stepCa.root | Path to your step-ca root certificate | Yes | - |
 | stepCa.provisioner | Step CA provisioner name | Yes | admin |
 | domain.suffix | Suffix to append to domain names | No | local |
 | npm.url | URL of your Nginx Proxy Manager instance | Yes | http://localhost:81 |
